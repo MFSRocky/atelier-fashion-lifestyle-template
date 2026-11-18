@@ -1,0 +1,21 @@
+================================================================================
+ENVATO MARKET COMMERCIAL LICENSE TERMS
+================================================================================
+
+Item: ATELIER — Fashion & Lifestyle Website Template
+Author: TemplateFlux
+Copyright (c) 2026 TemplateFlux. All rights reserved.
+
+This template is licensed for commercial use in accordance with the Envato
+Market License Agreement under which it was purchased:
+
+- Regular License: Use in a single end product for personal or commercial use,
+  where end users cannot be charged for access or use.
+- Extended License: Use in a single end product for personal or commercial use,
+  where end users can be charged for access or use.
+
+Third-Party Licenses:
+- Fonts (Playfair Display & DM Sans) are licensed under the SIL Open Font License (OFL 1.1).
+- Included preview photography is licensed under the Pexels Free License.
+  See CREDITS.txt for full attributions and terms.
+================================================================================

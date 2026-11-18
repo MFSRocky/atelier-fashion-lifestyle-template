@@ -1,0 +1,33 @@
+{
+  "cleanUrls": false,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/template/index.html"
+    },
+    {
+      "source": "/docs",
+      "destination": "/documentation/index.html"
+    },
+    {
+      "source": "/docs/(.*)",
+      "destination": "/documentation/$1"
+    },
+    {
+      "source": "/documentation",
+      "destination": "/documentation/index.html"
+    },
+    {
+      "source": "/documentation/(.*)",
+      "destination": "/documentation/$1"
+    },
+    {
+      "source": "/(index\\.html)?",
+      "destination": "/template/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/template/$1"
+    }
+  ]
+}

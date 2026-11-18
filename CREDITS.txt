@@ -1,0 +1,98 @@
+================================================================================
+ATELIER — ASSET CREDITS & LICENSING ATTRIBUTION
+TemplateFlux · Version 1.0.0 · 18 November 2026
+================================================================================
+
+1. LOCAL TYPOGRAPHY
+--------------------------------------------------------------------------------
+- Playfair Display: Designed by Claus Eggers Sørensen
+  License: SIL Open Font License (OFL 1.1)
+  Source: https://fonts.google.com/specimen/Playfair+Display
+  License text: Included locally in template/assets/fonts/OFL-Playfair-Display.txt
+
+- DM Sans: Designed by Colophon Foundry, Jonny Pinhorn
+  License: SIL Open Font License (OFL 1.1)
+  Source: https://fonts.google.com/specimen/DM+Sans
+  License text: Included locally in template/assets/fonts/OFL-DM-Sans.txt
+
+All fonts are bundled locally in WOFF2 format. No network requests are made
+to Google Fonts or third-party CDNs.
+
+
+2. PHOTOGRAPHY (PEXELS FREE LICENSE)
+--------------------------------------------------------------------------------
+The following twelve photographs and their responsive WebP variants are
+included in template/assets/images/. Each source page was verified on
+18 November 2026 under the official Pexels Free License (https://www.pexels.com/license/),
+which explicitly permits commercial use in "a template you sell."
+
+1. hero-editorial.webp
+   Title: Women in trendy outfits in studio
+   Creator: Monstera Production
+   Source: https://www.pexels.com/photo/women-in-trendy-outfits-in-studio-7691346/
+
+2. collection-studio.webp
+   Title: A woman in beige coat
+   Creator: Nataliya Vaitkevich
+   Source: https://www.pexels.com/photo/a-woman-in-beige-coat-4456716/
+
+3. lookbook-desert.webp
+   Title: A woman in a white dress walking in the desert
+   Creator: Taryn Elliott
+   Source: https://www.pexels.com/photo/a-woman-in-a-white-dress-walking-in-the-desert-4405255/
+
+4. product-coat.webp
+   Title: Beige trench coat on a hanger
+   Creator: Arina Krasnikova
+   Source: https://www.pexels.com/photo/brown-button-up-long-sleeve-shirt-hanging-on-black-hanger-5424917/
+
+5. product-bag.webp
+   Title: Brown leather bag on a white surface
+   Creator: Mohamed Hergafi
+   Source: https://www.pexels.com/photo/photo-of-a-brown-leather-bag-on-white-surface-8502477/
+
+6. journal-atelier.webp
+   Title: Fabrics and sewing patterns in a tailor atelier
+   Creator: Ksenia Chernaya
+   Source: https://www.pexels.com/photo/rolls-of-assorted-fabrics-and-textiles-and-sewing-patterns-inside-tailor-atelier-3965543/
+
+7. product-dress.webp
+   Title: Woman in a white dress
+   Creator: Rehman Yousaf
+   Source: https://www.pexels.com/photo/a-woman-in-white-elegant-satin-dress-13776795/
+
+8. product-shirt.webp
+   Title: Beige shirt on a clothes rack
+   Creator: Marina Podrez
+   Source: https://www.pexels.com/photo/a-brown-shirt-hanging-on-a-clothesline-11671275/
+
+9. product-scarf.webp
+   Title: Woman in a scarf
+   Creator: Ali Pazani
+   Source: https://www.pexels.com/photo/portrait-of-woman-in-scarf-19937360/
+
+10. product-trouser.webp
+    Title: Model in beige blazer and wide-leg pants
+    Creator: Criativa Pix Fotografia
+    Source: https://www.pexels.com/photo/model-in-beige-longline-blazer-and-wide-leg-pants-18173600/
+
+11. product-knit.webp
+    Title: Folded knitted sweaters
+    Creator: Nati
+    Source: https://www.pexels.com/photo/a-close-up-shot-of-folded-knitted-clothes-14641424/
+
+12. lifestyle-coast.webp
+    Title: Sunset over a rocky coast
+    Creator: Quang Nguyen Vinh
+    Source: https://www.pexels.com/photo/landscape-photography-of-rocks-by-the-sea-2131977/
+
+Restrictions:
+Do not extract and sell these photographs as standalone stock or wallpaper assets.
+Do not imply endorsement by the pictured models or photographers.
+
+
+3. VECTOR ICONS & GRAPHICS
+--------------------------------------------------------------------------------
+All UI icons (bag, search, close, arrows) are custom, handcrafted SVG vectors
+created specifically for ATELIER by TemplateFlux. Free for commercial use.
+================================================================================

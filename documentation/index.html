@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ATELIER — Documentation & Customization Runbook</title>
+  <link rel="icon" type="image/svg+xml" href="../template/favicon/favicon.svg">
+  <link rel="stylesheet" href="assets/css/docs.css">
+</head>
+<body>
+  <div class="docs-layout">
+    <aside class="docs-sidebar">
+      <div class="docs-brand">
+        <span class="badge">TEMPLATEFLUX</span>
+        <h2>ATELIER</h2>
+        <p>Fashion & Lifestyle HTML Template<br>Version 1.0.0</p>
+      </div>
+      <nav class="docs-nav">
+        <a href="#overview" class="active">Overview</a>
+        <a href="#structure">Folder Structure</a>
+        <a href="#quickstart">Quick Start Guide</a>
+        <a href="#pages">Included Page Layouts</a>
+        <a href="#customization">Customization Guide</a>
+        <a href="#typography">Typography & Local Fonts</a>
+        <a href="#colors">Design Tokens & Palette</a>
+        <a href="#catalog">Shop Catalog & Filters</a>
+        <a href="#forms">Connecting Forms</a>
+        <a href="#deployment">Deployment Guide</a>
+        <a href="#credits">Credits & Licensing</a>
+        <a href="#checklist">Pre-Submission QA</a>
+        <a href="#support">Support & FAQ</a>
+      </nav>
+      <div class="sidebar-footer">
+        <a href="../template/index.html" class="button-preview">Open Live Template ↗</a>
+      </div>
+    </aside>
+
+    <main class="docs-main">
+      <header class="docs-hero" id="overview">
+        <div class="hero-tag">ThemeForest Commercial Template Standard</div>
+        <h1>ATELIER Documentation</h1>
+        <p class="lede">A comprehensive engineering guide and onboarding runbook for the ATELIER editorial fashion and lifestyle website template.</p>
+        <div class="meta-pills">
+          <span>Static HTML5 / CSS3 / ES6+</span>
+          <span>Zero Build Step</span>
+          <span>100% Offline Capable</span>
+          <span>SIL OFL & Pexels Licensed</span>
+        </div>
+      </header>
+
+      <section class="docs-section" id="structure">
+        <h2>1. Folder Hierarchy</h2>
+        <p>The package follows the mandatory ThemeForest / Envato Market directory structure:</p>
+        <pre><code>ATELIER-Website-Template/
+├── documentation/              # Standalone offline HTML help documentation
+│   ├── index.html              # Documentation home
+│   ├── assets/
+│   │   ├── css/docs.css        # Documentation styles
+│   │   └── js/docs.js          # Interactive doc scripts
+│   └── README.txt
+│
+├── template/                   # Deployable production website
+│   ├── index.html              # Main campaign homepage
+│   ├── collections.html        # Collection chapters
+│   ├── shop.html               # Catalog with category filters and sorting
+│   ├── product.html            # Detail page with gallery and size/color pickers
+│   ├── about.html              # Brand philosophy and values
+│   ├── journal.html            # Field notes with category filtering
+│   ├── article.html            # Long-form reading article
+│   ├── contact.html            # Studio info & validated contact form
+│   ├── robots.txt              # Production crawler rules
+│   ├── sitemap.xml             # Search engine sitemap
+│   ├── favicon/                # Vector SVG, ICO, PNGs, and webmanifest
+│   ├── assets/
+│   │   ├── fonts/              # Bundled Playfair Display & DM Sans WOFF2
+│   │   ├── images/             # Responsive WebP photography derivatives
+│   │   └── icons/              # Vector UI SVG glyphs
+│   ├── css/
+│   │   ├── style.css           # Core tokens, reset, typography, shell
+│   │   ├── components.css      # UI cards, drawers, forms, grids
+│   │   └── responsive.css      # Responsive media queries
+│   └── js/
+│       ├── main.js             # Encapsulated vanilla ES6+ interactions
+│       └── data/
+│           └── site-config.js  # Central brand settings and form hooks
+│
+├── marketplace/                # Envato submission materials
+│   └── listing-copy.md         # Title, description, specs, and search tags
+│
+├── preview/                    # Envato promotional screenshots
+│   ├── screenshots/            # Desktop, tablet, mobile captures
+│   └── preview-images/         # 2340x1560 3:2 cover images
+│
+├── README.md                   # Repository overview with badges and stack info
+├── CHANGELOG.md                # Release version history
+├── CREDITS.txt                 # Asset and font license documentation
+├── LICENSE.txt                 # Envato commercial license terms
+└── START-HERE.txt              # Buyer onboarding text file</code></pre>
+      </section>
+
+      <section class="docs-section" id="quickstart">
+        <h2>2. Quick Start Guide</h2>
+        <ol class="step-list">
+          <li><strong>Extract the archive:</strong> Unzip <code>ATELIER-TemplateFlux-v1.0.0.zip</code> on your computer.</li>
+          <li><strong>Direct Browser Use:</strong> You can open <code>template/index.html</code> directly in Chrome, Firefox, Safari, or Edge. No node_modules, npm, or build step is needed.</li>
+          <li><strong>Local Web Server (Optional):</strong> For testing relative routing with standard HTTP origins:
+            <pre><code># Python 3
+cd template && python -m http.server 8080
+
+# Or Node.js
+npx serve template</code></pre>
+            Then open <a href="http://localhost:8080" target="_blank">http://localhost:8080</a>.
+          </li>
+        </ol>
+      </section>
+
+      <section class="docs-section" id="pages">
+        <h2>3. Included Page Layouts</h2>
+        <table class="docs-table">
+          <thead>
+            <tr><th>Page</th><th>File</th><th>Description</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Homepage</td><td><code>index.html</code></td><td>Campaign hero, collection chapters, new arrivals, manifesto, lookbook, and newsletter.</td></tr>
+            <tr><td>Collections</td><td><code>collections.html</code></td><td>Three distinct seasonal editorial collection chapters with lookbook teasers.</td></tr>
+            <tr><td>Catalog / Shop</td><td><code>shop.html</code></td><td>Product catalog with real-time category filtering (clothing/accessories) and price/name sorting.</td></tr>
+            <tr><td>Product Detail</td><td><code>product.html</code></td><td>Multi-angle image gallery, color & size selectors, quantity stepper, wishlist toggle, and cart drawer demo.</td></tr>
+            <tr><td>Our Story</td><td><code>about.html</code></td><td>Brand manifesto, core values, atelier photography, and design philosophy.</td></tr>
+            <tr><td>Journal</td><td><code>journal.html</code></td><td>Editorial stories with category tabs (Studio, People, Craft, Notes).</td></tr>
+            <tr><td>Article</td><td><code>article.html</code></td><td>Long-form editorial layout with lede, pull quotes, inline photography, author bio, and native sharing.</td></tr>
+            <tr><td>Contact</td><td><code>contact.html</code></td><td>Studio locations, press inquiries, business hours, and front-end validated contact form.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="docs-section" id="customization">
+        <h2>4. Central Configuration (site-config.js)</h2>
+        <p>Buyers can customize brand details, contact emails, addresses, and connect backend forms in one single file: <code>template/js/data/site-config.js</code>.</p>
+        <pre><code>window.SITE_CONFIG = {
+  brand: {
+    name: 'ATELIER',
+    tagline: 'For a life\nwell lived.',
+    announcement: 'Complimentary delivery on orders over $250 · A little more room to move'
+  },
+  contact: {
+    email: 'hello@atelier.studio',
+    locations: 'Paris · New York · Everywhere'
+  },
+  // Connect live forms:
+  formEndpoint: 'https://formspree.io/f/your_form_id'
+};</code></pre>
+      </section>
+
+      <section class="docs-section" id="typography">
+        <h2>5. Typography & Offline Fonts</h2>
+        <p>All fonts are locally bundled in <code>template/assets/fonts/</code> under the SIL Open Font License (OFL):</p>
+        <ul>
+          <li><strong>Playfair Display</strong> (Headings & Display): Modern transitional serif with high contrast and classic proportion.</li>
+          <li><strong>DM Sans</strong> (Interface & Body): Clean geometric sans-serif optimized for legibility across all screen sizes.</li>
+        </ul>
+        <p>No Google Fonts or external network requests are made. The site works completely offline.</p>
+      </section>
+
+      <section class="docs-section" id="colors">
+        <h2>6. Design Tokens & Palette</h2>
+        <p>Edit CSS custom properties in <code>template/css/style.css</code> to re-theme the entire website:</p>
+        <pre><code>:root {
+  --ivory: #EAE4D9;      /* Warm neutral surface */
+  --cream: #F8F5EF;      /* Primary canvas background */
+  --charcoal: #25221F;   /* Primary dark contrast */
+  --taupe: #A18B73;      /* Accent tone */
+  --taupe-ink: #735D46;  /* High-contrast accent for accessibility */
+  --ink-soft: #635D56;   /* Secondary reading typography */
+}</code></pre>
+      </section>
+
+      <section class="docs-section" id="forms">
+        <h2>7. Connecting Backend Forms</h2>
+        <p>The newsletter and contact forms perform instant client-side validation. To receive live submissions by email, specify your endpoint in <code>template/js/data/site-config.js</code>:</p>
+        <ul>
+          <li><strong>Formspree:</strong> <code>formEndpoint: 'https://formspree.io/f/xyz'</code></li>
+          <li><strong>Basin:</strong> <code>formEndpoint: 'https://usebasin.com/f/xyz'</code></li>
+          <li><strong>Netlify Forms:</strong> Add <code>data-netlify="true"</code> to the <code>&lt;form&gt;</code> element.</li>
+        </ul>
+      </section>
+
+      <section class="docs-section" id="deployment">
+        <h2>8. Deployment Guide</h2>
+        <h3>Deploying to Vercel</h3>
+        <pre><code># Install Vercel CLI
+npm i -g vercel
+
+# Deploy production build
+vercel --prod</code></pre>
+        <h3>Deploying to Netlify</h3>
+        <p>Drag and drop the <code>template/</code> folder directly into Netlify Drop, or push the repository to GitHub and select <code>template</code> as the publish directory.</p>
+        <h3>Deploying to Apache / Nginx / Traditional cPanel</h3>
+        <p>Upload the contents of <code>template/</code> directly into your server's <code>public_html</code> or web root directory.</p>
+      </section>
+
+      <section class="docs-section" id="credits">
+        <h2>9. Asset Credits & Licensing</h2>
+        <p>All bundled assets are 100% legally cleared for commercial redistribution in a website template you sell:</p>
+        <ul>
+          <li><strong>Photography:</strong> 12 curated Pexels photographs verified on 18 November 2026 under the Pexels Free License. See <code>CREDITS.txt</code> for full photographer credits and source URLs.</li>
+          <li><strong>Fonts:</strong> Playfair Display and DM Sans by Google Fonts, licensed under the SIL Open Font License (OFL 1.1). License texts included in <code>assets/fonts/</code>.</li>
+          <li><strong>Icons:</strong> Custom handcrafted SVG vector glyphs.</li>
+        </ul>
+      </section>
+
+      <section class="docs-section" id="checklist">
+        <h2>10. ThemeForest 16-Point QA Audit</h2>
+        <table class="docs-table">
+          <thead>
+            <tr><th>#</th><th>Check</th><th>Standard</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Folder Hierarchy</td><td>template/, documentation/, marketplace/, preview/</td><td>PASS ✓</td></tr>
+            <tr><td>2</td><td>Relative Paths</td><td>All links and assets relative, zero 404s</td><td>PASS ✓</td></tr>
+            <tr><td>3</td><td>HTML5 Validation</td><td>W3C valid semantic elements, no duplicate IDs</td><td>PASS ✓</td></tr>
+            <tr><td>4</td><td>CSS Tokens</td><td>Centralized :root properties, zero horizontal overflow</td><td>PASS ✓</td></tr>
+            <tr><td>5</td><td>JavaScript</td><td>Vanilla ES6+, zero console errors, safe DOM querying</td><td>PASS ✓</td></tr>
+            <tr><td>6</td><td>Cross-Device</td><td>Responsive mobile (375px), tablet (768px), desktop (1440px)</td><td>PASS ✓</td></tr>
+            <tr><td>7</td><td>Zero Placeholders</td><td>Realistic luxury editorial copy, no Lorem Ipsum</td><td>PASS ✓</td></tr>
+            <tr><td>8</td><td>Asset Licensing</td><td>SIL OFL fonts & Pexels Free License confirmed</td><td>PASS ✓</td></tr>
+            <tr><td>9</td><td>Interactions</td><td>Cart drawer, filters, gallery, wishlist, form validation</td><td>PASS ✓</td></tr>
+            <tr><td>10</td><td>SEO & Metadata</td><td>Unique titles, descriptions, Open Graph, sitemap, robots</td><td>PASS ✓</td></tr>
+            <tr><td>11</td><td>Documentation</td><td>Comprehensive offline HTML guide with code samples</td><td>PASS ✓</td></tr>
+            <tr><td>12</td><td>Credits Document</td><td>Full resource attributions in CREDITS.txt</td><td>PASS ✓</td></tr>
+            <tr><td>13</td><td>Semantic Changelog</td><td>Version release history in CHANGELOG.md</td><td>PASS ✓</td></tr>
+            <tr><td>14</td><td>Commercial License</td><td>Standard marketplace license in LICENSE.txt</td><td>PASS ✓</td></tr>
+            <tr><td>15</td><td>Marketplace Assets</td><td>Listing copy, search tags, 2340x1560 covers</td><td>PASS ✓</td></tr>
+            <tr><td>16</td><td>Packaging Hygiene</td><td>Clean ZIP free of OS caches and dev artifacts</td><td>PASS ✓</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="docs-section" id="support">
+        <h2>11. Support & Assistance</h2>
+        <p>For customization questions or support, reach out via the ThemeForest author item support tab or via email at <a href="mailto:support@templateflux.com">support@templateflux.com</a>.</p>
+      </section>
+    </main>
+  </div>
+  <script src="assets/js/docs.js"></script>
+</body>
+</html>

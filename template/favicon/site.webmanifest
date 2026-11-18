@@ -1,0 +1,26 @@
+{
+  "name": "ATELIER — Fashion & Lifestyle Website Template",
+  "short_name": "ATELIER",
+  "description": "Considered clothing and lifestyle essentials for a life well lived.",
+  "start_url": "../index.html",
+  "display": "standalone",
+  "background_color": "#F8F5EF",
+  "theme_color": "#EAE4D9",
+  "icons": [
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

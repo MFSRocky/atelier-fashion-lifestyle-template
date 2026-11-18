@@ -1,0 +1,32 @@
+================================================================================
+WELCOME TO ATELIER — QUICK ONBOARDING GUIDE
+================================================================================
+
+Thank you for purchasing ATELIER, an editorial fashion and lifestyle website template.
+
+1. WHERE IS THE WEBSITE?
+--------------------------------------------------------------------------------
+The complete website source is inside the "template" folder.
+Open "template/index.html" in your browser to immediately preview the site.
+
+2. WHERE IS THE DOCUMENTATION?
+--------------------------------------------------------------------------------
+Comprehensive help documentation is in the "documentation" folder.
+Open "documentation/index.html" for step-by-step guides on editing content,
+colors, typography, connecting forms, and launching your site.
+
+3. DIRECTORY OVERVIEW:
+--------------------------------------------------------------------------------
+- template/       -> The deployable website (HTML, CSS, JS, assets)
+- documentation/  -> Standalone offline HTML help guide
+- marketplace/    -> Envato listing copy and tags
+- preview/        -> High-resolution preview screenshots and covers
+- README.md       -> Quick repository overview
+- CHANGELOG.md    -> Version release notes
+- CREDITS.txt     -> Font and photo attributions
+- LICENSE.txt     -> License agreement terms
+
+4. NEED HELP?
+--------------------------------------------------------------------------------
+Refer to documentation/index.html or contact us through the author support page.
+================================================================================

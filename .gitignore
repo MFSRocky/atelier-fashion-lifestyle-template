@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+node_modules/
+.vercel/
+.env*
+.idea/
+.vscode/
+image-search/
+capture-update.cjs
+.sudo_as_admin_successful
+atelier/
