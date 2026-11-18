@@ -11,3 +11,5 @@ image-search/
 capture-update.cjs
 .sudo_as_admin_successful
 atelier/
+
+.vercel
